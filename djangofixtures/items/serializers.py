@@ -2,6 +2,6 @@ from rest_framework import serializers
 from .models import Item
 
 class ItemSerializer(serializers.ModelSerializer):
-    class meta:
+    class Meta:
         model = Item
-        fiels = '__all__'
+        fields = '__all__'
