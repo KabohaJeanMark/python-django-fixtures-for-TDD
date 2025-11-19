@@ -1,0 +1,20 @@
+[
+  {
+    "model": "items.item",
+    "pk": 1,
+    "fields": {
+      "name": "Laptop",
+      "description": "Dell XPS 13",
+      "price": "4500000"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 2,
+    "fields": {
+      "name": "Phone",
+      "description": "iPhone 14",
+      "price": "2800000"
+    }
+  }
+]
