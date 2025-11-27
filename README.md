@@ -1,7 +1,5 @@
 # Django CRUD API with Django Fixtures
 
-📘 Django CRUD API with Fixtures
-
 📌 Overview
 
 This project is a simple Django REST Framework CRUD API that demonstrates how to use Django fixtures to load sample data for development and automated tests.
