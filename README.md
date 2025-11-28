@@ -21,6 +21,8 @@ django_fixtures/
 ├── items/
 │   ├── fixtures/
 │   │   └── items.json
+│   ├── migrations/
+│   │   └── 00001_initial.py
 │   ├── models.py
 │   ├── serializers.py
 │   ├── views.py
@@ -28,8 +30,9 @@ django_fixtures/
 │
 ├── django_fixtures/
 │   └── settings.py
-│
+│   └── urls.py
 ├── manage.py
+└── .gitignore
 └── README.md
 ```
 
