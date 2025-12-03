@@ -125,21 +125,25 @@ Example (items.json):
 
 📡 API Endpoints
 
-Method	Endpoint	Description
-GET	/items/	List all items
-POST	/items/	Create new item
-GET	/items/<id>/	Retrieve single item
-PUT	/items/<id>/	Update item
-DELETE	/items/<id>/	Delete item
+| Method | Endpoint | Description |
+|--------|--------| ---------|
+| GET  | /items/  | Create new item  |
+| POST  | /items/  | Retrieve single item  |
+| PUT  | /items/<id>/  | Update item  |
+| DELETE  | /items/<id>/  | Delete item  |
 
 
 ⸻
 
 🛠 Technologies Used
-	•	Django
+	
+    •	Django
+
 	•	Django REST Framework
-	•	Python 3.x
-	•	SQLite (default)
+	
+    •	Python 3.x
+	
+    •	SQLite (default)
 
 ⸻
 
