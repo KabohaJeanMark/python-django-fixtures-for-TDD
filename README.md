@@ -12,8 +12,6 @@ The project includes:
 	•	A fixture file (items.json) inside items/fixtures/
 	•	Automated API tests that load fixtures before running
 
-⸻
-
 📂 Project Structure
 ```
 django_fixtures/
@@ -35,8 +33,6 @@ django_fixtures/
 └── .gitignore
 └── README.md
 ```
-
-⸻
 
 🚀 Setup Instructions
 
@@ -72,8 +68,6 @@ or:
 python manage.py loaddata items/fixtures/items.json
 ```
 
-⸻
-
 🧪 Running Tests
 
 The project includes automated tests located in items/tests.py.
@@ -94,8 +88,6 @@ fixtures = ['items.json']
 ```
 
 Django automatically loads the JSON file from items/fixtures/.
-
-⸻
 
 📁 About Fixtures
 
@@ -124,8 +116,6 @@ Example (items.json):
 ]
 ```
 
-⸻
-
 📡 API Endpoints
 
 | Method | Endpoint | Description |
@@ -134,9 +124,6 @@ Example (items.json):
 | POST  | /items/  | Retrieve single item  |
 | PUT  | /items/<id>/  | Update item  |
 | DELETE  | /items/<id>/  | Delete item  |
-
-
-⸻
 
 🛠 Technologies Used
 	
@@ -147,8 +134,6 @@ Example (items.json):
     •	Python 3.x
 	
     •	SQLite (default)
-
-⸻
 
 📎 Useful Commands
 
@@ -161,9 +146,7 @@ Reload fixtures:
 python manage.py loaddata items
 ```
 
-⸻
-
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
@@ -174,8 +157,6 @@ Feel free to check the [issues page](https://github.com/KabohaJeanMark/python-dj
 git checkout -b <ft-branch-name>
 ```
 
-## Show your support
+### Show your support
 
 Give a ⭐️ if you like this project!
-
-⸻
